@@ -41,12 +41,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3225586451578191325}
   - component: {fileID: 1780667775492994641}
-  - component: {fileID: 9071111539268373014}
   - component: {fileID: 8181241224930080722}
   - component: {fileID: 4542565483556072104}
+  - component: {fileID: 6833796561102991302}
   m_Layer: 0
   m_Name: ShooterAdvance
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,26 +119,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9071111539268373014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4589486995734199284}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00e7ec511848b2041ac2f6dcc8cf7bfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  peaPrefab: {fileID: 1144153507426225434, guid: 5eabaca45be062541b2a2526615e3614, type: 3}
-  firePoint: {fileID: 532325026939049555}
-  fireRate: 1.5
-  requireZombieInLane: 0
-  detectionRadius: 15
-  zombieLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!114 &8181241224930080722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +126,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4589486995734199284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9400a5028fefbcd4dbd4cff08035fa01, type: 3}
   m_Name: 
@@ -156,7 +136,6 @@ MonoBehaviour:
   fireRate: 1.5
   peasPerShot: 4
   peaSpacing: 0.5
-  requireZombieInLane: 0
   detectionRadius: 6
   zombieLayer:
     serializedVersion: 2
@@ -207,3 +186,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.62060785, y: 1.06}
   m_EdgeRadius: 0
+--- !u!114 &6833796561102991302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4589486995734199284}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7deca693324f7484fb927f01b71e7abd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  peaPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  fireRate: 1.5
+  peasPerShot: 1
+  peaSpacing: 0.5
+  detectionRadius: 15
+  vidaMaxima: 100

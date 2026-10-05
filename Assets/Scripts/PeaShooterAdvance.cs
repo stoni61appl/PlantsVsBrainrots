@@ -2,35 +2,35 @@ using UnityEngine;
 
 /// <summary>
 /// Lanzaguisantes estilo Plants vs Zombies.
-/// Puede disparar 1 a N guisantes, separados en posición.
+/// Puede disparar 1 a N guisantes, separados en posiciï¿½n.
 /// </summary>
 public class PeaShooterAdvance : MonoBehaviour
 {
-    [Header("Configuración de disparo")]
+    [Header("Configuraciï¿½n de disparo")]
     [Tooltip("Prefab del guisante que se va a instanciar")]
     public GameObject peaPrefab;
 
-    [Tooltip("Punto desde donde sale el guisante (hijo vacío delante de la planta)")]
+    [Tooltip("Punto desde donde sale el guisante (hijo vacï¿½o delante de la planta)")]
     public Transform firePoint;
 
     [Tooltip("Tiempo entre disparos, en segundos")]
     public float fireRate = 1.5f;
 
-    [Tooltip("Número de guisantes por disparo (1-4)")]
+    [Tooltip("Nï¿½mero de guisantes por disparo (1-4)")]
     [Range(1, 4)]
     public int peasPerShot = 1;
 
-    [Tooltip("Separación horizontal entre cada guisante")]
+    [Tooltip("Separaciï¿½n horizontal entre cada guisante")]
     public float peaSpacing = 0.3f;
 
-    [Header("Detección de zombies (opcional)")]
-    [Tooltip("Si está activo, solo dispara cuando hay un zombie en el carril")]
+    [Header("Detecciï¿½n de zombies (opcional)")]
+    [Tooltip("Si estï¿½ activo, solo dispara cuando hay un zombie en el carril")]
     public bool requireZombieInLane = true;
 
-    [Tooltip("Radio del área que revisa si hay zombies enfrente")]
+    [Tooltip("Radio del ï¿½rea que revisa si hay zombies enfrente")]
     public float detectionRadius = 6f;
 
-    [Tooltip("Capa donde están los zombies")]
+    [Tooltip("Capa donde estï¿½n los zombies")]
     public LayerMask zombieLayer;
 
     [Header("Vida")]
@@ -70,7 +70,7 @@ public class PeaShooterAdvance : MonoBehaviour
 
         Vector3 spawnPos = firePoint != null ? firePoint.position : transform.position;
 
-        // Instancia varios guisantes con separación
+        // Instancia varios guisantes con separaciï¿½n
         for (int i = 0; i < peasPerShot; i++)
         {
             Vector3 offset = new Vector3(i * peaSpacing, 0f, 0f);

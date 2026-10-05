@@ -1,82 +1,77 @@
-//using System.Numerics;
 using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
-    [Header("Ataque")]
-    public int danio = 10;
-    public float intervaloAtaque = 1f;
-    public float distanciaDeteccion = 0.6f;
-
-    [Header("Referencia")]
-    [Tooltip("Arrastra aquí el script que hace avanzar al zombie")]
-    public MonoBehaviour scriptMovimiento;
-
-    private PeaShooterAdvance plantaObjetivo;
-    private float temporizador;
-
-    [Header("Vida")]
+    public float velocidad = 1f;
     public int vidaMaxima = 100;
+    public int danio = 20;
+    public float distanciaAtaque = 0.8f;
+
     private int vidaActual;
+    private Animator animator;
+    private GameObject plantaObjetivo;
+
+    void Start()
+    {
+        vidaActual = vidaMaxima;
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
-        
-        if (plantaObjetivo == null)
-        {
-            plantaObjetivo = BuscarPlanta();
-        }
+        BuscarPlanta();
 
         if (plantaObjetivo == null)
         {
-            if (scriptMovimiento != null) scriptMovimiento.enabled = true;
-            temporizador = 0f;
-            return;
+            transform.position += Vector3.left * velocidad * Time.deltaTime;
+
+            animator.SetBool("Walk", true);
+            animator.SetBool("Attack", false);
         }
-
-       
-        if (scriptMovimiento != null) scriptMovimiento.enabled = false;
-
-        temporizador -= Time.deltaTime;
-        if (temporizador <= 0f)
+        else
         {
-            plantaObjetivo.RecibirDanio(danio);
-            temporizador = intervaloAtaque;
+            animator.SetBool("Walk", false);
+            animator.SetBool("Attack", true);
         }
     }
 
-    PeaShooterAdvance BuscarPlanta()
+    void BuscarPlanta()
     {
-        
-        RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.left, distanciaDeteccion);
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position,
+            Vector2.left,
+            distanciaAtaque
+        );
 
-        foreach (RaycastHit2D hit in hits)
+        if (hit.collider != null && hit.collider.CompareTag("Plant"))
         {
-            PeaShooterAdvance p = hit.collider.GetComponent<PeaShooterAdvance>();
-            if (p != null) return p;
+            plantaObjetivo = hit.collider.gameObject;
         }
-
-        return null;
+        else
+        {
+            plantaObjetivo = null;
+        }
     }
 
-    void OnDrawGizmosSelected()
+    public void attack()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.left * distanciaDeteccion);
+        if (plantaObjetivo != null)
+        {
+            plantaObjetivo.SendMessage(
+                "RecibirDanio",
+                danio,
+                SendMessageOptions.DontRequireReceiver
+            );
+        }
     }
+
     public void RecibirDanio(int cantidad)
     {
         vidaActual -= cantidad;
 
         if (vidaActual <= 0)
         {
-            Morir();
+            Destroy(gameObject);
         }
     }
-
-    private void Morir()
-    {
-        Destroy(gameObject);
-    }
 }
-
-
