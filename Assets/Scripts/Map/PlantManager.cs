@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class PlantManager : MonoBehaviour
 {
-    public static PlantManager Instance; // Singleton para fácil acceso
-    public GameObject plantPrefab;       // Prefab de la planta
+    public static PlantManager Instance;
+
+    public GameObject[] plantPrefabs;
+
+    private int selectedIndex = -1;
 
     void Awake()
     {
@@ -12,12 +15,25 @@ public class PlantManager : MonoBehaviour
 
     public void PlantHere(Cell cell)
     {
-        if (!cell.occupied)
+        if (!cell.occupied && selectedIndex >= 0)
         {
-            GameObject newPlant = Instantiate(plantPrefab, cell.transform.position, Quaternion.identity);
-            newPlant.transform.parent = cell.transform; // Se queda dentro de la celda
+            GameObject newPlant = Instantiate(
+                plantPrefabs[selectedIndex],
+                cell.transform.position,
+                Quaternion.identity
+            );
+
+            newPlant.transform.parent = cell.transform;
+
             cell.currentPlant = newPlant;
             cell.occupied = true;
         }
+    }
+
+    public void SelectPlant(int index)
+    {
+        selectedIndex = index;
+
+        Debug.Log("Planta seleccionada: " + plantPrefabs[index].name);
     }
 }

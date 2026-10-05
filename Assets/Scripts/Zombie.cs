@@ -20,13 +20,12 @@ public class Zombie : MonoBehaviour
     private int vidaActual;
     void Update()
     {
-        // Si no tengo objetivo (o ya murió), busco una planta enfrente
+        
         if (plantaObjetivo == null)
         {
             plantaObjetivo = BuscarPlanta();
         }
 
-        // Sin planta: sigo avanzando
         if (plantaObjetivo == null)
         {
             if (scriptMovimiento != null) scriptMovimiento.enabled = true;
@@ -34,7 +33,7 @@ public class Zombie : MonoBehaviour
             return;
         }
 
-        // Con planta: me detengo y muerdo cada cierto tiempo
+       
         if (scriptMovimiento != null) scriptMovimiento.enabled = false;
 
         temporizador -= Time.deltaTime;
@@ -47,7 +46,7 @@ public class Zombie : MonoBehaviour
 
     PeaShooterAdvance BuscarPlanta()
     {
-        // El zombie avanza hacia la izquierda
+        
         RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.left, distanciaDeteccion);
 
         foreach (RaycastHit2D hit in hits)

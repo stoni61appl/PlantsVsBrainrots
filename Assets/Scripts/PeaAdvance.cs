@@ -6,11 +6,11 @@ public class PeaAdvance : MonoBehaviour
     public int damage = 20;
     public float lifeTime = 5f;
 
-    private Vector2 direction = Vector2.right; // por defecto recto
+    private Vector2 direction = Vector2.right;
     private Vector2 finalDirection = Vector2.right;
 
     [Header("Corrección de dirección")]
-    public float straightenTime = 0.5f; // segundos hasta que se endereza
+    public float straightenTime = 0.5f; 
     private float timer;
 
 
@@ -28,14 +28,14 @@ public class PeaAdvance : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        // Mientras no se cumpla el tiempo, usa la dirección inicial
+        
         if (timer < straightenTime)
         {
             transform.Translate(direction * speed * Time.deltaTime);
         }
         else
         {
-            // Después del tiempo, sigue recto
+            
             transform.Translate(finalDirection * speed * Time.deltaTime);
         }
     }
