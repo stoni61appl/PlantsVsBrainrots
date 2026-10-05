@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3295687839217192915}
   - component: {fileID: 576957996537408863}
   - component: {fileID: 5945137018996816239}
+  - component: {fileID: 8467165564095433633}
   m_Layer: 0
   m_Name: spike
   m_TagString: Untagged
@@ -147,7 +148,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 2
 --- !u!114 &5945137018996816239
 MonoBehaviour:
@@ -156,7 +157,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144153507426225434}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d7a99cb5e751834f843f4182a67bd22, type: 3}
   m_Name: 
@@ -164,3 +165,19 @@ MonoBehaviour:
   speed: 8
   damage: 20
   lifeTime: 5
+--- !u!114 &8467165564095433633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144153507426225434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94399ccbe96ffe4ab1f209346eb2af2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 7
+  danio: 10
+  maxEnemigos: 3
+  tiempoVida: 5
