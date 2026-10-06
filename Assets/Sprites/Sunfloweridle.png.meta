@@ -1,0 +1,1434 @@
+fileFormatVersion: 2
+guid: 71fa202a5e4c4b849bd95f84a906a45b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1398
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca7c6cdb131e1d44955ddae5ac7a1d5
+      internalID: 1675693532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1398
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46ef0714d7ad2d47b945ef529eaa1b6
+      internalID: 1706479962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1398
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caf1f10cfd585e4ca2becc8fdc862a0
+      internalID: 229271746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1398
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d1ea64dba4bf04abcec7d10f736c9e
+      internalID: -1132488697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1398
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40918d8cbcf73043bea0d49b89d3b34
+      internalID: 1695407798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1271
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58edac693b7ae984dad874cf081f9531
+      internalID: 1476820155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1271
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731e2716c4dba0049aa355906cee73d2
+      internalID: -708041460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1271
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195acc1920cd60c4799d95c9e8ee9205
+      internalID: 255137530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1271
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f82e30f84dd8db4394ce48173fbb5c4
+      internalID: -962561708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1271
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcb84bc9eb562240a5b37ae6bad90bc
+      internalID: 1617389627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1144
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0f1842471e28644a7c4bd46a288768
+      internalID: 2077404611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1144
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eccfdfde31839c43981cdad190ac0fe
+      internalID: 1304986309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_12
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1144
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e04a60da41cc94f819901e55307d50
+      internalID: -500069126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_13
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1144
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d98b9afbcc4e204fafbadd5abe5a6ea
+      internalID: -1279903414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1144
+        width: 104
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d386e106e3cbc3b4d8d14adda7f91201
+      internalID: -502500220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1017
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cb67d30b559024baa6b4e24377db90
+      internalID: -1178633410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1017
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80c5783bd0c07c4ba8a570ffa6b2c3e
+      internalID: -163391656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1017
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1958be23a4525934b9cbfc138505ff0b
+      internalID: 1608391336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1017
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9f3017b6f624e4fbc0767e57d571d8
+      internalID: -818484137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_19
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1017
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f6c9c313a44e4a9be09327aabc7bd
+      internalID: -988045488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 890
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ebcd5b52a1274580c0e711f461811
+      internalID: -935083916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 890
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa3957cb571664e8644ceac9f9bd9b
+      internalID: -2044753692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_22
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 890
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e71eb49ebac1a541956cd8b862a7f19
+      internalID: 1090410126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 890
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e75d20d309a074c8927f9c3fec1226
+      internalID: -1161113308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_24
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 890
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71998a2ad9a6f840bfef6a1cd95b7e5
+      internalID: 1919195018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 763
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e25a783fb035e47a86f2009fa82d78
+      internalID: 206664691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 763
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82cf4718be260b4391dd55e22891e27
+      internalID: -2085290033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_27
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 763
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d6f8f2150e7d94eb02ab7fe43eeb64
+      internalID: -1438953832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_28
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 763
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee570a4995f74ec47ad32309a1cc9626
+      internalID: -1280613938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_29
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 763
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5bdc24568e4b340896d84837cf2106
+      internalID: -1030010334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 636
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134e3c2a4703f114482afd034b2a0d5b
+      internalID: -2063047671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 636
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b216980088bf83842bf81bf8b800665a
+      internalID: -62490050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 636
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccda2e939238674992cd9f3770a1e1c
+      internalID: 183031129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 636
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b75442669b78544684bf3d0380faaf5
+      internalID: -1807347280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_34
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 636
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ad46d750d72a94689cf2a88736eb3a
+      internalID: -1025861978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 509
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d65e8f86974a824ca919d7501e10859
+      internalID: -1393107408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_36
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 509
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d751e14dda5b2846b53200fa5f0a972
+      internalID: -700963059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_37
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 509
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a6986d54aee114da1d1c6db8ff83f5
+      internalID: 1971031920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 509
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5a1d899d0f2c24a8f236e287a4654d
+      internalID: -978367215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_39
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 509
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7d18e88ac22f94f831e7253a88ad3f
+      internalID: -1899309144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 382
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64df621775366043ad4a487ded762df
+      internalID: -858611375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 382
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5736c7242c0b57c4491c284a467f1237
+      internalID: 1124778947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_42
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 382
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca114afe7db77f4780b5d7383c1ef25
+      internalID: -1038964086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_43
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 382
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcef31de0deeae4188388938ebd0ed0
+      internalID: -282252222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_44
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 382
+        width: 104
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf51105d1cc394f84f438d6489d4cc
+      internalID: -1888315062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 255
+        width: 103
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1520d16c77a0446919ae71c15d0bf6
+      internalID: -293685319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 255
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810483ab23e587744b1a41cb4002d925
+      internalID: 1832523450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_47
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 255
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957aac8db693e214393d36db7667f409
+      internalID: 106716838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 255
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2a0a3d21325f443857c4d2b0d7101e
+      internalID: 806731561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_49
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 255
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72a92e9315c61746a41fa08689a1375
+      internalID: -542113656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb45f58c267649c4fb28316b082dca98
+      internalID: -718121777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_51
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 128
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf229ab0f805ca45a684efc0574152b
+      internalID: -340394971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_52
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 128
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285f5fd45f8017e428b86eb454e73bfa
+      internalID: -1103172376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 128
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48179ae1daef431409e9486eab843085
+      internalID: -1268470165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_54
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 128
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c981838ee46614ea8912df5104fac1
+      internalID: 442289975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005a8607c215f3d4385fd3a5c459befa
+      internalID: 198959231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_56
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34724c4f01fa6f4f9dc1055bf6c376b
+      internalID: -111907207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_57
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93bf8ecec0337f44a6835db91fdf211
+      internalID: 1750372869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_58
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a9675e5a8f9ce4e96cc4a371570ebc
+      internalID: -642918941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_59
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2ccfc21d20abb4c99e5a7798a70f3a
+      internalID: -33759783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_0: 1675693532
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_1: 1706479962
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_10: 2077404611
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_11: 1304986309
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_12: -500069126
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_13: -1279903414
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_14: -502500220
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_15: -1178633410
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_16: -163391656
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_17: 1608391336
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_18: -818484137
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_19: -988045488
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_2: 229271746
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_20: -935083916
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_21: -2044753692
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_22: 1090410126
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_23: -1161113308
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_24: 1919195018
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_25: 206664691
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_26: -2085290033
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_27: -1438953832
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_28: -1280613938
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_29: -1030010334
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_3: -1132488697
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_30: -2063047671
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_31: -62490050
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_32: 183031129
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_33: -1807347280
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_34: -1025861978
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_35: -1393107408
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_36: -700963059
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_37: 1971031920
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_38: -978367215
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_39: -1899309144
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_4: 1695407798
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_40: -858611375
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_41: 1124778947
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_42: -1038964086
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_43: -282252222
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_44: -1888315062
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_45: -293685319
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_46: 1832523450
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_47: 106716838
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_48: 806731561
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_49: -542113656
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_5: 1476820155
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_50: -718121777
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_51: -340394971
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_52: -1103172376
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_53: -1268470165
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_54: 442289975
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_55: 198959231
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_56: -111907207
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_57: 1750372869
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_58: -642918941
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_59: -33759783
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_6: -708041460
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_7: 255137530
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_8: -962561708
+      Mobile-Plantsvs.Zombies2-Sunflower-Idle-ezgif.com-gif-to-sprite-converter_9: 1617389627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

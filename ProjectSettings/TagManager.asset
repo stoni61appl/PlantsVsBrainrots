@@ -13,9 +13,9 @@ TagManager:
   - zombieLayer
   - Water
   - UI
-  - 
-  - 
-  - 
+  - SolLayer
+  - Cell
+  - zombieLayer
   - 
   - 
   - 

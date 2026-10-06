@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6752804789264227868}
   - component: {fileID: 3295687839217192915}
   - component: {fileID: 576957996537408863}
-  - component: {fileID: 5945137018996816239}
   - component: {fileID: 8467165564095433633}
   m_Layer: 0
   m_Name: spike
@@ -150,21 +149,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 2
---- !u!114 &5945137018996816239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144153507426225434}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d7a99cb5e751834f843f4182a67bd22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  damage: 20
-  lifeTime: 5
 --- !u!114 &8467165564095433633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +162,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 7
-  danio: 10
+  danio: 15
   maxEnemigos: 3
   tiempoVida: 5
