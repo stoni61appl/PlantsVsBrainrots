@@ -33,9 +33,9 @@ public class PeaShooterAdvance : MonoBehaviour
     [Tooltip("Capa donde est�n los zombies")]
     public LayerMask zombieLayer;
 
-    [Header("Vida")]
-    public int vidaMaxima = 100;
-    private int vidaActual;
+    //[Header("Vida")]
+    //public int vidaMaxima = 100;
+    //private int vidaActual;
 
     private float timer;
 
@@ -83,16 +83,6 @@ public class PeaShooterAdvance : MonoBehaviour
         Vector2 origen = firePoint != null ? firePoint.position : transform.position;
         Gizmos.color = Color.green;
         Gizmos.DrawLine(origen, origen + Vector2.right * detectionRadius);
-    }
-
-    public void RecibirDanio(int cantidad)
-    {
-        vidaActual -= cantidad;
-
-        if (vidaActual <= 0)
-        {
-            Morir();
-        }
     }
 
     private void Morir()

@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6267942892536816271}
   - component: {fileID: 3779149477546342550}
   - component: {fileID: 7326526326357821888}
+  - component: {fileID: 255660114433390439}
   m_Layer: 0
   m_Name: Sunflower 1
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunPrefab: {fileID: 5823600109144355838, guid: 313695633d1e5c346afc2daf9ed3e89f, type: 3}
-  sunInterval: 18
+  sunInterval: 16
   sunSpawnPoint: {fileID: 3403461768262373212}
 --- !u!61 &7326526326357821888
 BoxCollider2D:
@@ -147,6 +148,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.03, y: 1.19}
   m_EdgeRadius: 0
+--- !u!114 &255660114433390439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865632577373652837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c928f31481bffe9439316c6292ab8f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaxima: 300
 --- !u!1 &8480215400984626385
 GameObject:
   m_ObjectHideFlags: 0

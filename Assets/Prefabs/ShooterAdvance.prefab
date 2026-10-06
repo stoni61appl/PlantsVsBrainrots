@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 1780667775492994641}
   - component: {fileID: 8181241224930080722}
   - component: {fileID: 4542565483556072104}
+  - component: {fileID: 4470290584328692037}
   m_Layer: 0
   m_Name: ShooterAdvance
   m_TagString: Plant
@@ -133,14 +134,13 @@ MonoBehaviour:
   peaPrefab: {fileID: 1144153507426225434, guid: 5eabaca45be062541b2a2526615e3614, type: 3}
   firePoint: {fileID: 532325026939049555}
   fireRate: 1.5
-  peasPerShot: 4
+  peasPerShot: 1
   peaSpacing: 0.5
   requireZombieInLane: 1
   detectionRadius: 15
   zombieLayer:
     serializedVersion: 2
     m_Bits: 8
-  vidaMaxima: 100
 --- !u!61 &4542565483556072104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -186,3 +186,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.62060785, y: 1.06}
   m_EdgeRadius: 0
+--- !u!114 &4470290584328692037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4589486995734199284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c928f31481bffe9439316c6292ab8f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaxima: 300
