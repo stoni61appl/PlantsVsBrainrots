@@ -25,19 +25,17 @@ public class Spike : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Zombie z = other.GetComponent<Zombie>();
-        if (z != null)
+        if (other.CompareTag("Zombie"))
         {
-            // En vez de destruir al zombie, solo le aplicamos daño
-            z.RecibirDanio(danio);
+            other.SendMessage("TakeDamage", danio, SendMessageOptions.DontRequireReceiver);
 
-            // Contamos el impacto
             enemigosAtraviesados++;
 
-            // Si ya atravesó el máximo permitido, se destruye el proyectil
             if (enemigosAtraviesados >= maxEnemigos)
             {
                 Destroy(gameObject);
             }
+
         }
     }
 }

@@ -1544,8 +1544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 0.2
-  vidaMaxima: 100
-  danio: 20
+  vidaMaxima: 190
+  danio: 100
   distanciaAtaque: 0.7
 --- !u!1 &4082004851035267618
 GameObject:

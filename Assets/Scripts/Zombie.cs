@@ -65,7 +65,7 @@ public class Zombie : MonoBehaviour
         }
     }
 
-    public void RecibirDanio(int cantidad)
+    public void TakeDamage(int cantidad)
     {
         vidaActual -= cantidad;
 

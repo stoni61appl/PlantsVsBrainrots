@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlantaCarnivora : MonoBehaviour
 {
     [Header("Atributos")]
-    public int danio = 999;          // Daño alto (mata de un bocado)
-    public float rango = 1f;         // Distancia de detección
+    public int danio = 999;           // Daño alto (mata de un bocado)
+    public float rango = 1f;          // Distancia de detección
     public float tiempoRecarga = 10f; // Tiempo de espera tras comer
 
     private bool enRecarga = false;
@@ -22,34 +22,30 @@ public class PlantaCarnivora : MonoBehaviour
             return;
         }
 
-        // Buscar zombie cercano
-        Zombie objetivo = BuscarZombie();
+        GameObject objetivo = BuscarZombie();
         if (objetivo != null)
         {
             ComerZombie(objetivo);
         }
     }
 
-    Zombie BuscarZombie()
+    GameObject BuscarZombie()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, rango);
         foreach (Collider2D hit in hits)
         {
-            Zombie z = hit.GetComponent<Zombie>();
-            if (z != null)
+            if (hit.CompareTag("Zombie"))
             {
-                return z;
+                return hit.gameObject;
             }
         }
         return null;
     }
 
-    void ComerZombie(Zombie z)
+    void ComerZombie(GameObject zombie)
     {
-        // Destruye al zombie
-        Destroy(z.gameObject);
+        zombie.SendMessage("TakeDamage", danio, SendMessageOptions.DontRequireReceiver);
 
-        // Activa recarga
         enRecarga = true;
         temporizador = tiempoRecarga;
 
@@ -62,5 +58,3 @@ public class PlantaCarnivora : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, rango);
     }
 }
-
-

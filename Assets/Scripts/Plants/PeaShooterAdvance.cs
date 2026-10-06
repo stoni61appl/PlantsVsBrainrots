@@ -56,8 +56,14 @@ public class PeaShooterAdvance : MonoBehaviour
     private bool HayZombieEnfrente()
     {
         Vector2 origen = firePoint != null ? firePoint.position : transform.position;
-        RaycastHit2D hit = Physics2D.Raycast(origen, Vector2.right, detectionRadius, zombieLayer);
-        return hit.collider != null;
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origen, Vector2.right, detectionRadius);
+
+        foreach (RaycastHit2D hit in hits)
+        {
+            if (hit.collider.CompareTag("Zombie"))
+                return true;
+        }
+        return false;
     }
 
     private void Disparar()

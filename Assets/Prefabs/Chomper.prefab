@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   danio: 999
   rango: 1
-  tiempoRecarga: 10
+  tiempoRecarga: 12
 --- !u!114 &1202101268294276394
 MonoBehaviour:
   m_ObjectHideFlags: 0

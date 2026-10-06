@@ -1169,7 +1169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c95c0de1662bd409467092a21180de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tungTungPrefab: {fileID: 3942309490021602170, guid: cd0ec52f55cdb6340ae7c47052f9bfb7, type: 3}
+  tungTungPrefab: {fileID: 2700910461814227389, guid: 4d31acf1defaf6745abb53b228f7ec9a, type: 3}
   puntosSpawn:
   - {fileID: 880318818}
   - {fileID: 1973280547}
@@ -1249,6 +1249,10 @@ PrefabInstance:
     - target: {fileID: 2275678073298449831, guid: 64a2b59dab6b7af448e724bf4f324133, type: 3}
       propertyPath: m_Name
       value: SunManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2526417578335555309, guid: 64a2b59dab6b7af448e724bf4f324133, type: 3}
+      propertyPath: currentSun
+      value: 900
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

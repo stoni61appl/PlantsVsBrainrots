@@ -24,15 +24,10 @@ public class Pea : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+
         if (other.CompareTag("Zombie"))
         {
-            Zombie zombie = other.GetComponent<Zombie>();
-            if (zombie != null)
-            {
-                zombie.RecibirDanio(damage);
-            }
-
+            other.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
             Destroy(gameObject);
         }
     }

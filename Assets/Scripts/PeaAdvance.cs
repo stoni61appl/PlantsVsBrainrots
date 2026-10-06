@@ -47,7 +47,7 @@ public class PeaAdvance : MonoBehaviour
             Zombie zombie = other.GetComponent<Zombie>();
             if (zombie != null)
             {
-                zombie.RecibirDanio(damage);
+                zombie.TakeDamage(damage);
             }
             Destroy(gameObject);
         }
